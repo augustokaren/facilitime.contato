@@ -1,0 +1,58 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    font-family: "Open Sans", sans-serif;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #4d6bf5;
+}
+
+/* Estilos para o formulário */
+form {
+    border: 2px solid #333;        /* Cor e espessura da borda */
+    padding: 20px;                 /* Espaçamento interno */
+    border-radius: 8px;            /* Bordas arredondadas */
+    background-color: #b4dbf5;     /* Cor de fundo do formulário */
+    width: 100%;
+    max-width: 400px;              /* Largura máxima do formulário */
+    display: flex;
+    flex-direction: column;
+    align-items: center;           /* Centraliza os elementos do formulário */
+}
+
+/* Estilos para os elementos do formulário */
+label {
+    width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;                   /* Largura total do formulário */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #909bfc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Estilos para o botão */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(245, 246, 247);
+    background-color: #088cb4;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;                   /* Largura total do botão */
+}
+
+button:hover {
+    background-color: #0c022e;     /* Cor ao passar o mouse */
+}
